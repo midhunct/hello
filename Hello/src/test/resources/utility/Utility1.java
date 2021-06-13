@@ -30,7 +30,7 @@ public class Utility1 {
 		//implicit wait
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS) ;
 		
-		// launch browser and redirect it to the Base URL
+		// launch browser and redirect it to the Base URL -----
 		driver.get("https://www.seleniumeasy.com/test/");
 		
 		
